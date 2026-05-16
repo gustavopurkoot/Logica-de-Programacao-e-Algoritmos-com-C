@@ -12,7 +12,7 @@ int main() {
         soma += aluno[i][j];
 
             }
-         printf("\n\nMédia do aluno %d: %.2f\n\n", i + 1, soma[i] / 4);
+         printf("\n\nMédia do aluno %d: %.2f\n\n", i + 1, soma / 4);
     }
 
 

@@ -39,8 +39,8 @@ int main() {
             if(p1.idade > p2.idade && p1.idade > p3.idade){
                 printf("Pessoa mais velha: %s\n", p1.nome);
             }
-            else if(p2.idade > p1.idade && p2.idade > p3.nome){
-            printf("Pessoa mais velha: %s\n", p2.idade);
+            else if(p2.idade > p1.idade && p2.idade > p3.idade){
+            printf("Pessoa mais velha: %s\n", p2.nome);
             }
             else{
                 printf("Pessoa mais velha: %s\n", p3.nome);

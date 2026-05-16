@@ -12,7 +12,7 @@ int main()
     for (int i = 0; i < 2; i++){ // linha
         for (int j = 0; j < 3; j++){ // coluna
 
-            printf("Agencia %d, Dia %d: \n", i + 1, j + 1, valor[i][j]);
+            printf("Agencia %d, Dia %d: %d\n", i + 1, j + 1, valor[i][j]);
 
             total += valor[i][j];
         }
